@@ -1,0 +1,10 @@
+roll=(1,5,8,7,4)
+name=('Rohit','Abhishek','Tushar','Manish','Sita')
+cgpa=(8.4,9.5,7.6,9.7,3.3)
+sgpa=(9.0,9.5,8.7,5.5,2.3)
+for i in range(len(roll)):
+    print("Details of student with roll number: ",roll[i])
+    print("Name: ",name[i])
+    print("CGPA: ",cgpa[i])
+    print("SGPA: ",sgpa[i])
+    print()
